@@ -1,0 +1,11 @@
+{application, binary_join, [
+  {id, "binary_join"},
+  {description, "Join a list of binaries with a separator"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []}
+]}.
